@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Food Manager",
+    "slug": "version3_Food_manager",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logoFm.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/fmSplachScreen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "darrenniedjo1"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logoFm.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.niedjo.version3_Food_manager"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1c5f132e-0dec-45c2-b91c-5813171843be"
+      }
+    }
+  }
+}
